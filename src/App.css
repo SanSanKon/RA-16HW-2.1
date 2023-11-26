@@ -1,0 +1,51 @@
+.portfolio-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.portfolio-toolbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.toolbar-wrapper {
+  display: flex;
+  margin: 0 0 1rem;
+  /* justify-content: space-between; */
+  /* width: 25%; */
+}
+
+button {
+  background: transparent;
+  border: 0.5px solid black;
+  margin: 0.25rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.toolbar-all, 
+.toolbar-websites,
+.toolbar-flayers {
+  margin: 0 0.25rem 0 0;
+}
+
+.selected {
+  background: black;
+  border: none;
+  color: #fff;
+}
+
+.img-wrapper{
+  margin: 0 auto;
+  width: 100%;
+}
+
+img{
+  margin-right: 0.5rem;
+}
